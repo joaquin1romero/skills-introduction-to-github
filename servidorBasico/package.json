@@ -1,0 +1,22 @@
+{
+  "name": "servidor-basico",
+  "version": "1.0.0",
+  "description": "Proyecto de NodeJs",
+  "keywords": [
+    "ES"
+  ],
+  "license": "ISC",
+  "author": "Joaquín Romero y Facundo Pereyra",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mysql2": "^3.20.0",
+    "nodemon": "^3.1.14"
+  }
+}
